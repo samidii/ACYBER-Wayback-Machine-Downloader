@@ -13,15 +13,15 @@ Features:
 
 If you **don’t need a proxy**, simply omit the `-proxyport` option.  
 ```bash
-python downloader.py -url example.com -type pdf
+python dumpper.py -url example.com -type pdf
 ```
 If you have a single proxy port, provide it directly:
 ```bash
-python downloader.py -url example.com -type pdf -proxyport 1080-1080
+python dumpper.py -url example.com -type pdf -proxyport 1080-1080
 ```
 If you want to use multiple proxies in a range, specify the range (e.g., 1080–1090):
 ```bash
-python downloader.py -url example.com -type pdf -proxyport 1080-1090
+python dumpper.py -url example.com -type pdf -proxyport 1080-1090
 ```
 
 
